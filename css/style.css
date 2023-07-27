@@ -1,0 +1,572 @@
+#homeWelcome{
+    /* background: var(white-color); */
+    background: url('../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#innerWelcome{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto 120px;
+    padding: 0 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftSide{
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#leftSide h1{
+    color: var(--black-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#leftSide p{
+    color: var(--white-color);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#leftSide button{
+    width: 250px;
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+    background: var(--main-color);
+    font-size: 18px;
+    border-radius: 50px;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+#leftSide button:active{
+    transform: scale(0.99);
+}
+
+#leftSide h1 span{
+    color: var(--main-color);
+}
+
+#rightSide img{
+    width: 500px;
+}
+
+/* best services */
+#homeMain{
+    max-width: 100%;
+    width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    margin-bottom: 200px;
+}
+
+#mauryaBenefits{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#mauryaBenefits div{
+    text-align: center;
+    transition: all ease 0.3s;
+    padding: 30px;
+    /* border: 1px solid blue; */
+}
+
+#mauryaBenefits div:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#mauryaBenefits div img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+#mauryaBenefits div p{
+    font-size: 16px;
+    color: var(--black-color);
+}
+
+/* breif about */
+#briefAbout{
+    margin-bottom: 100px;
+}
+
+#aboutText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#briefAbout h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#briefAbout h2 b{
+    color: var(--main-color);
+}
+
+#aboutText #aboutLeft{
+    width: 600px;
+    max-width: 100%;
+}
+
+#aboutText #aboutLeft p{
+    font-size: 15px;
+}
+
+#aboutText #aboutRight{
+    width: 450px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 40px;
+    max-width: 100%;
+}
+
+#aboutText #aboutRight img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+#aboutText #aboutRight:hover img{
+    transform: scale(1.2);
+}
+
+/* make best services section */
+.blogServices{
+    width: 300px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#bestSerHeading{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#bestSerHeading span{
+    color: var(--main-color);
+}
+
+#bestSerHeading::after{
+    content: '';
+    height: 7px;
+    width: 300px;
+    background: var(--main-color);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 5px;
+    
+}
+
+.blogServices .servicesDetails{
+    padding: 20px;
+}
+
+.blogServices .servicesDetails h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.blogServices .servicesDetails p{
+    font-size: 16px;
+    color: #666666;
+}
+
+.blogServices a{
+    text-decoration: none;
+}
+
+
+.blogServices .servicesDetails button{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--main-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 15px;
+    transition: all ease 0.1s;
+}
+
+.blogServices .servicesDetails button:active{
+    transform: scale(0.99);
+}
+
+.blogServices .imgBox{
+    position: relative;
+}
+
+.blogServices .imgBox .serPrice{
+    position: absolute;
+    background: var(--white-color);
+    color: var(--main-color);
+    border-radius: 5px 0 0 5px;
+    right: 0;
+    bottom: 30px;
+    padding: 3px 10px 3px 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.blogServices .imgBox .serPrice strike{
+    margin-left: 5px;
+    color: lightgray;
+}
+
+.blogServices .imgBox img{
+    width: 100%;
+}
+
+.blogServices .servicesDetails .blogDate{
+    font-size: 14px;
+}
+
+/* let's make the customer reivew section */
+#customerReviews{
+    margin: 100px 0;
+}
+
+#addReviews{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#addReviews button{
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 16px;
+    cursor: pointer;
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.Reviews{
+    background: rgb(255, 255, 255);
+    padding: 25px;box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Reviews .customerProfile{
+    display: flex;
+    align-items: center;
+}
+
+.Reviews .customerProfile h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Reviews .customerProfile .personDetails{
+    margin-left: 20px;
+}
+
+.Reviews .customerProfile img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Reviews .customerTypes{
+    margin: 5px 0;
+}
+
+.Reviews .Ratings{
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+
+/* mkae thinks section */
+#thinksSection{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#thinkImg{
+    padding: 0 20px;
+}
+
+#thinksSection img{
+    width: 450px;
+}
+
+#thinkImg{
+    height: fit-content;
+}
+
+#thinkDetails{
+    margin-left: 100px;
+    height: fit-content;
+}
+
+#thinkTag{
+    color: var(--main-color);
+}
+
+#thinkTitle{
+    color: var(--black-color);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#allThink .thinks{
+    background: #fff4fa;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 20px;
+    border-left: 2px solid var(--main-color);
+}
+
+#allThink .thinks .innerThinksHeadings{
+    border-bottom: 1px solid #E40079;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+#allThink .thinks .innerThinksHeadings i{
+    color: var(--main-color);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+#allThink .thinks .innerThinksHeadings i.active{
+    transform: rotate(180deg);
+}
+
+#allThink .thinks .innerThinksHeadings h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black-color);
+    padding-right: 15px;
+}
+
+#allThink .thinks p{
+    font-size: 16px;
+    padding: 0 0;
+    overflow: hidden;
+    height: 0;
+    transition: padding ease 0.3s;
+}
+
+#allThink .thinks p.active{
+    padding: 20px 0;
+    overflow: auto;
+    height: auto;
+}
+
+/* Googla review section */
+#googleReviews{
+    margin-top: 100px;
+}
+
+#googleReviews iframe{
+    width: 100%;
+    border: none;
+    height: 900px;
+}
+
+#googleReviewHeading{
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+#googleReviewHeading img{
+    width: 400px;
+    max-width: 100%;
+}
+
+/* gallery section */
+.mySwiper1{
+    padding: 20px;
+    background: #ffe6f3;
+    border-radius: 5px;
+}
+
+#imageGallery #bestSerHeading{
+    margin: 100px 0 50px;
+}
+
+.mySwiper1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* make responsive */
+@media (max-width: 1000px) {
+    #innerWelcome{    
+        padding: 0 20px;
+    }
+    #rightSide img{
+        width: 400px;
+    }
+    #leftSide h1{
+        font-size: 40px;
+    }
+    
+    #leftSide p{
+        font-size: 18px;
+    }
+    #mauryaBenefits div p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 950px){
+    #thinksSection img{
+        width: 350px;
+    }
+        
+    #aboutText #aboutRight{
+        height: 300px;
+    }
+}
+
+
+
+@media (max-width: 850px){
+    #rightSide img{
+        width: 300px;
+    }
+    .blogServices .servicesDetails button, .blogServices a, #leftSide button{
+        cursor: default;
+    }
+}
+
+@media (max-width: 800px){
+    #googleReviews iframe{
+        height: 1400px;
+    }
+    #thinksSection img{
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 750px){
+    #innerWelcome{
+        flex-direction: column;
+    }
+
+    #leftSide{
+        margin-right: 0;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    #leftSide h1{
+        font-size: 30px;
+    }
+
+    #leftSide p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    #mauryaBenefits{
+        flex-direction: column;
+    }
+    
+    #rightSide img{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #bestSerHeading{
+        font-size: 35px;
+        text-align: center;
+    }
+    #bestSerHeading::after{
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    #addReviews button{
+        width: 100%;
+        cursor: default;
+    }
+    #aboutText {
+        flex-direction: column-reverse;
+    }     
+    #aboutText #aboutLeft{
+        margin-top: 40px;
+    }   
+    #aboutText #aboutRight{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    #briefAbout h2{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    #thinkTitle{
+        font-size: 25px;
+    }
+
+    #thinksSection{
+        flex-direction: column;
+    }
+
+    #thinkDetails{
+        margin-left: 0;
+    }
+
+    #thinksSection img{
+        width: 100%;
+    }
+
+    #thinksSection #thinkImg{
+        margin-bottom: 60px;
+    }
+
+    #allThink .thinks .innerThinksHeadings i, #homeWelcomeText button{
+        cursor: default;
+    }
+
+    #allThink .thinks .innerThinksHeadings h3{
+        font-size: 18px;
+    }
+
+    #allThink .thinks p{
+        font-size: 14px;
+    }
+
+    #thinksSection{
+        margin-top: 100px;
+    }
+    
+}
+@media (max-width: 580px) {
+    #googleReviews iframe{
+        height: 2400px;
+    }
+}

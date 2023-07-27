@@ -1,0 +1,221 @@
+#servicesWelcome{
+    background: red;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+#servicesWelcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#welcomeText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 20px;
+}
+
+#welcomeText h1{
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#welcomeText p{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#welcomeText b{
+    color: var(--main-color);
+}
+
+/* make a all services section */
+#services{
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 50px auto 200px;
+}
+
+#allServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.serBox{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#bestSerHeading{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#bestSerHeading span{
+    color: var(--main-color);
+}
+
+#bestSerHeading::after{
+    content: '';
+    height: 7px;
+    width: 300px;
+    background: var(--main-color);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    border-radius: 5px;
+    
+}
+
+.serBox .servicesDetails{
+    padding: 20px;
+}
+
+.serBox .servicesDetails h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.serBox .servicesDetails p{
+    font-size: 16px;
+    color: #666666;
+}
+
+.serBox a{
+    text-decoration: none;
+}
+
+
+.serBox .servicesDetails button{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: var(--main-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 15px;
+    transition: all ease 0.1s;
+}
+
+.serBox .servicesDetails button:active{
+    transform: scale(0.99);
+}
+
+.serBox .imgBox{
+    position: relative;
+}
+
+.serBox .imgBox .serPrice{
+    position: absolute;
+    background: var(--white-color);
+    color: var(--main-color);
+    border-radius: 5px 0 0 5px;
+    right: 0;
+    bottom: 30px;
+    padding: 3px 10px 3px 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.serBox .imgBox .serPrice strike{
+    margin-left: 5px;
+    color: lightgray;
+}
+
+.serBox .imgBox img{
+    width: 100%;
+}
+
+.serBox .servicesDetails .blogDate{
+    font-size: 14px;
+}
+
+#moreBox{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#moreBox button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: var(--main-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all ease 0.1s;
+}
+
+#moreBox button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#moreBox button:active{
+    transform: scale(0.99);
+}
+
+
+/* make responsive */
+@media (max-width: 950px){
+    #allServices{
+        grid-template-columns: repeat(2, 1fr);
+    }
+        
+
+}
+
+@media (max-width: 850px){
+    .blogServices .servicesDetails button, .blogServices a, #leftSide button{
+        cursor: default;
+    }
+}
+
+
+@media (max-width: 700px) {
+    #welcomeText h1{
+        font-size: 24px;
+    }
+
+    #welcomeText p{
+        font-size: 20px;
+    }
+
+    #bestSerHeading{
+        font-size: 35px;
+        text-align: center;
+    }
+    #bestSerHeading::after{
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    #allServices{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

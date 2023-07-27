@@ -1,0 +1,85 @@
+#aboutWelcome{
+    background: red;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+#aboutWelcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#welcomeText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 20px;
+}
+
+#welcomeText h1{
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#welcomeText p{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#welcomeText b{
+    color: var(--main-color);
+}
+
+/* make the mid section of the about page */
+#midAbout{
+    width: 1200px;
+    max-width: 100%;
+    margin: 50px auto 200px;
+    padding: 0 20px;
+}
+
+#midAbout h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#midAbout h2 span{
+    color: var(--main-color);
+}
+
+#midAbout .aboutPera{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#midAbout .lastPera{
+    margin-bottom: 70px;
+}
+
+@media (max-width: 700px) {
+    #welcomeText h1{
+        font-size: 24px;
+    }
+
+    #welcomeText p{
+        font-size: 20px;
+    }
+
+    #midAbout h2{
+        font-size: 30px;
+    }
+    
+}
