@@ -1,0 +1,90 @@
+#galleryWelcome{
+    background: red;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+#galleryWelcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#welcomeText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 20px;
+}
+
+#welcomeText h1{
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+#welcomeText p{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#welcomeText b{
+    color: var(--main-color);
+}
+
+/* make a gallery section */
+#mainGallery{
+    width: 1200px;
+    max-width: 100%;
+    margin: 80px auto 150px;
+    padding: 0 20px;
+}
+
+#innerGallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+#innerGallery img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background: blue;
+    border: 2px solid var(--main-color);
+}
+
+/* make responsive */
+@media (max-width: 800px) {
+    
+    #innerGallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #innerGallery a{
+        cursor: default;
+    }
+
+}
+@media (max-width: 600px) {
+    
+    #innerGallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #innerGallery img{
+        height: 400px;
+    }
+
+}

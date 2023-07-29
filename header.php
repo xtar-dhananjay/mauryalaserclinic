@@ -26,17 +26,16 @@
                 <li class="active"><a href="index.php">Home</a></li>
                 <li><a href="Services.php">Services</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="gallery.php">Blogs</a></li>
+                <li><a href="blogs.php">Blogs</a></li>
                 <li id="contactMenu"><a href="contact.php">Contact</a></li>
             </ul>
             <ul id="donContact"> 
                 <li id="headerCall"><a href=""><i class="fa-solid fa-phone"></i></a></li>
-                <li><button id="headerContactBtn">Book Appointment</button></li>
+                <li><button id="headerContactBtn" onclick="inquiryForm.classList.toggle('active');">Book Appointment</button></li>
             </ul>
             <i id="menuIcon" class="fa-solid fa-bars"></i>
         </nav>
     </header>
-
 
     <script src="js/header.js"></script>
 

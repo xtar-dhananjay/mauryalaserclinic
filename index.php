@@ -6,7 +6,7 @@
         <div id="leftSide">
             <h1><span>Maurya</span> Laser Clinic</h1>
             <p>If you need any kind of laser hair removal like body hair removal and lags hair removal then you can book an appointment today.</p>
-            <button>Book Appointment</button>
+            <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
         </div>
 
         <div id="rightSide">
@@ -58,12 +58,34 @@
                 <div class="swiper-slide blogServices">
                     <div class="imgBox">
                         <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                        <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                        <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
                     </div>
                     <div class="servicesDetails">
-                        <a href=""><h3>Laser hair removal</h3></a>
-                        <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                        <button>Book Appointment</button>
+                        <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                        <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                        <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
+                    </div>
+                </div>
+                <div class="swiper-slide blogServices">
+                    <div class="imgBox">
+                        <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
+                        <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
+                    </div>
+                    <div class="servicesDetails">
+                        <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                        <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                        <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
+                    </div>
+                </div>
+                <div class="swiper-slide blogServices">
+                    <div class="imgBox">
+                        <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
+                        <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
+                    </div>
+                    <div class="servicesDetails">
+                        <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                        <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                        <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
                     </div>
                 </div>
                 <div class="swiper-slide blogServices">
@@ -74,7 +96,7 @@
                     <div class="servicesDetails">
                         <a href=""><h3>Laser hair removal</h3></a>
                         <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                        <button>Book Appointment</button>
+                        <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
                     </div>
                 </div>
                 <div class="swiper-slide blogServices">
@@ -85,29 +107,7 @@
                     <div class="servicesDetails">
                         <a href=""><h3>Laser hair removal</h3></a>
                         <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                        <button>Book Appointment</button>
-                    </div>
-                </div>
-                <div class="swiper-slide blogServices">
-                    <div class="imgBox">
-                        <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                        <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
-                    </div>
-                    <div class="servicesDetails">
-                        <a href=""><h3>Laser hair removal</h3></a>
-                        <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                        <button>Book Appointment</button>
-                    </div>
-                </div>
-                <div class="swiper-slide blogServices">
-                    <div class="imgBox">
-                        <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                        <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
-                    </div>
-                    <div class="servicesDetails">
-                        <a href=""><h3>Laser hair removal</h3></a>
-                        <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                        <button>Book Appointment</button>
+                        <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
                     </div>
                 </div>
 
@@ -124,12 +124,12 @@
         <div class="swiper mySwiper1">
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
-                <div class="swiper-slide galleryImg"><img src="img/Gallery/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
+                <div class="swiper-slide galleryImg"><img src="img/gallery/home/1.png" alt="maurya laser clinic & Salon images"></div>
                 
 
             </div>
@@ -140,7 +140,7 @@
     <div id="customerReviews">
         <h2 id="bestSerHeading">Customer <span>Reviews</span></h2>
         <div id="addReviews">
-            <a href=""><button>Add Reviews</button></a>
+            <a href="reviews.php"><button>Add Reviews</button></a>
         </div>
          <!-- Swiper -->
         <div class="swiper mySwiper">
@@ -148,7 +148,7 @@
 
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/1.png" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -165,7 +165,7 @@
                 </div>
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/1.png" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -182,7 +182,7 @@
                 </div>
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/clinte/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/1.png" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -216,7 +216,7 @@
                 </div>
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/clinte/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -233,7 +233,7 @@
                 </div>
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/customer/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/clinte/1.jpg" alt="customer-Photo | Maurya laser clinic customer in delhi">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -260,7 +260,7 @@
             <img src="img/googleReviews.png" alt="maurya laser clinic google ratting & review heading img | maurya best laser clinic delhi">
         </div>
         <div id="addReviews">
-            <a href=""><button>Add Reviews</button></a>
+            <a target="_blank" href="https://g.page/r/Cd2IaC-b3YSoEB0/review"><button>Add Reviews</button></a>
         </div>
         <iframe src='https://cdn.trustindex.io/amp-widget.html#04bc49e17a1c80814096a328d91' sandbox='allow-scripts allow-same-origin' layout='fixed-height' height='1301' resizable='resizable'><span overflow></span></iframe>
     </div>

@@ -16,100 +16,100 @@
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
         <div class="serBox">
             <div class="imgBox">
                 <span class="serPrice"><span>₹2999</span><strike>₹<span>4999</span></strike></span>
-                <a href=""><img src="img/servicesImg/1.png" alt="services-image"></a>
+                <a href="singleService.php"><img src="img/servicesImg/1.png" alt="services-image"></a>
             </div>
             <div class="servicesDetails">
-                <a href=""><h3>Laser hair removal</h3></a>
-                <a href=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
-                <button>Book Appointment</button>
+                <a href="singleService.php"><h3>Laser hair removal</h3></a>
+                <a href="singleService.php"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam?...</p></a>
+                <button onclick="inquiryForm.classList.toggle('active');">Book Appointment</button>
             </div>
         </div>
 

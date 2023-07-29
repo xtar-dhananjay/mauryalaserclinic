@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="css/footer.css">
+<?php include 'message.php'; ?>
+<?php include 'appointmentForm.php'; ?>
 
 <footer>
     <div id="innerFooter">
@@ -30,11 +32,11 @@
                 <div class="footerMenu childFooPart">
                     <ul class="listLinks">
                         <li class="exLinks">Website Pages</li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blogs.php">Blogs</a></li>
                     </ul>
                 </div>
             </div>

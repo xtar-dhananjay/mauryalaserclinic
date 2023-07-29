@@ -1,0 +1,423 @@
+#blogsWelcome{
+    background: red;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+
+#blogsWelcome img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#welcomeText{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+    text-align: center;
+    padding: 20px;
+}
+
+#welcomeText h1{
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 50px;
+}
+
+#welcomeText p{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#welcomeText b{
+    color: var(--main-color);
+}
+
+
+/* make the body part of all blogs */
+#blogs{
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 50px auto 200px;
+    padding: 0 20px;
+}
+
+#blogsHeading h2{
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#blogsHeading h2::after {
+    content: '';
+    height: 7px;
+    width: 200px;
+    background: var(--main-color);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    border-radius: 5px;
+}
+
+#allBlogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+#leftSide{
+    max-width: 100%;
+    width: 800px;
+}
+
+/* lets make a all blogs section (leftSide */
+#leftSide{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+
+#leftSide .singleBlog{
+    background: #fff8fc;
+    display: flex;    
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all ease 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#leftSide .singleBlog .blogImg{
+    overflow: hidden;
+    min-width: 350px;
+    height: 200px;
+}
+
+#leftSide .singleBlog img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.2s;
+}
+
+#leftSide .singleBlog .blogImg:hover img{
+    transform: scale(1.1);
+}
+
+
+#leftSide .singleBlog .blogDetails{
+    padding: 10px 20px;
+}
+
+#leftSide .singleBlog .blogDetails a{
+    text-decoration: none;
+}
+
+#leftSide .singleBlog .blogDetails h2{
+    color: var(--black-color);
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#leftSide .singleBlog .blogDetails p{
+    color: #3b3b3b;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#leftSide .singleBlog .blogDetails .blogDate{
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    transition: all ease 0.2s;
+}
+
+#leftSide .singleBlog:hover .blogDetails .blogDate{
+    color: var(--main-color);
+}
+
+#leftSide .singleBlog .blogDetails button{
+    height: 35px;
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid var(--main-color);
+    background: transparent;
+    color: var(--main-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+
+#leftSide .singleBlog .blogDetails button:active{
+    transform: scale(0.98);
+}
+
+#leftSide .singleBlog .blogDetails button:hover{
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+/* lets make the right side ( recent blogs and search */
+#rightSide{
+    width: 300px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+#searchBar h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#searchBar .mainSearch{
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#searchBar .mainSearch input{
+    height: 40px;
+    width: calc(100% - 40px);
+    border: none;
+    padding: 0 20px;
+    outline: none;
+}
+
+#searchBar .mainSearch i{
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: lightgray;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+#searchBar .mainSearch i:hover{
+    color: var(--main-color);
+}
+
+#recentBlogHeading h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#recentBlogHeading h2 span{
+    color: var(--main-color);
+}
+
+#fiveRecentBlogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+#fiveRecentBlogs .rBlog{
+    background: #fff8fc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#fiveRecentBlogs .rBlog .rimgBlox{
+    width: 100%;
+    overflow: hidden;
+}
+
+#fiveRecentBlogs .rBlog .rimgBlox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.2s;
+}
+
+#fiveRecentBlogs .rBlog .rimgBlox:hover img{
+    transform: scale(1.1);
+}
+
+#fiveRecentBlogs .rBlog .blogDetails{
+    padding: 15px;
+}
+
+#fiveRecentBlogs .rBlog .blogDetails a{
+    text-decoration: none;
+}
+
+#fiveRecentBlogs .rBlog .blogDetails h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 5px;
+    color: var(--black-color);
+}
+
+#fiveRecentBlogs .rBlog .blogDetails p{
+    font-size: 13px;
+    color: #3b3b3b;;
+}
+
+#fiveRecentBlogs .rBlog .blogDetails .blogDate{
+    font-size: 12px;
+    margin-bottom: 3px;
+    transition: all ease 0.2s;
+}
+
+#fiveRecentBlogs .rBlog:hover .blogDetails .blogDate{
+    color: var(--main-color);
+}
+
+#loadMore{
+    text-align: center;
+    margin: 50px 0 100px;
+}
+
+#loadMore button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: var(--main-color);
+    color: var(--white-color);
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+#loadMore button:active{
+    transform: scale(0.98);
+}
+
+/* make responsive */
+
+@media (max-width: 1150px) {
+    
+    #leftSide{
+        width: 700px;
+    }
+
+
+    #leftSide .singleBlog .blogImg{
+        min-width: 250px;
+        height: 200px;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    
+    #leftSide{
+        width: 600px;
+    }
+
+
+    #leftSide .singleBlog .blogImg{
+        min-width: 250px;
+        height: 220px;
+    }
+    
+}
+
+@media (max-width: 950px) {
+    
+    #leftSide{
+        width: 550px;
+    }
+
+
+    #leftSide .singleBlog .blogImg{
+        min-width: 150px;
+        height: 220px;
+    }
+
+    #rightSide{
+        margin-left: 20px;
+    }
+    
+}
+
+
+@media (max-width: 850px){
+
+
+    #allBlogs{
+        flex-direction: column;
+    }
+
+    #leftSide{
+        width: 100%;
+    }
+
+    #rightSide{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #fiveRecentBlogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 700px) {
+    #welcomeText h1{
+        font-size: 24px;
+    }
+
+    #welcomeText p{
+        font-size: 20px;
+    }
+    #searchBar .mainSearch i, #leftSide .singleBlog .blogDetails button, #leftSide .singleBlog a, #fiveRecentBlogs .rBlog{
+        cursor: default;
+    }
+}
+
+@media (max-width: 600px){
+    #leftSide .singleBlog{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #leftSide .singleBlog .blogImg{
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+    }
+
+    #leftSide .singleBlog .blogDetails button{
+        width: 100%;
+    }
+
+    #leftSide .singleBlog .blogDetails{
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 550px){
+
+    #fiveRecentBlogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
