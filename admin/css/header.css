@@ -1,0 +1,192 @@
+header{
+    background: var(--white-color);
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: url('../../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+header nav{
+    width: 1200px;
+    max-width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--black-color);
+    transition: all ease 0.1s;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav #headerPages{
+    width: 380px;
+    justify-content: space-between;
+}
+
+header nav img{
+    width: 120px;
+}
+
+header nav #donContact{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav #headerContactBtn{
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    background: transparent;
+    color: var(--black-color);
+    cursor: pointer;
+    transition: all ease 0.2s;
+    background: var(--main-color);
+    color: var(--white-color);
+    border: none;
+}
+
+header nav button:active{
+    transform: scale(0.98);
+}
+
+header nav ul li.active a{
+    color: var(--main-color);
+}
+
+header nav ul li a:hover{
+    color: var(--main-color);
+}
+
+
+header nav ul #headerCall a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: var(--main-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactMenu{
+    display: none;
+}
+
+#menuIcon{
+    color: var(--main-color);
+    font-size: 25px;
+    display: none;
+}
+
+
+#scaner{
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background: #ffd9003f;
+    opacity: 0;
+    z-index: -100;
+    transform: scale(0);
+    pointer-events: none;
+    transition: all ease 0.3s;
+    padding: 0 20px;
+}
+
+#scaner.active{
+    transform: scale(1);
+    pointer-events: auto;
+    z-index: 100;
+    opacity: 1;
+}
+
+#scaner img{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+    header nav #donContact{
+        display: none;
+    }
+    header nav #headerPages{
+        width: 500px;
+    }
+    #contactMenu{
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav #headerPages{
+        width: 420px;
+    }
+}
+
+@media (max-width: 700px) {
+    header nav #headerPages{
+        position: fixed;
+        width: 100%;
+        background: url('../img/wallpaper.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(100% - 70px);
+        left: -100%;
+        bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+        padding-top: 30px;    
+        transition: all ease 0.2s;
+        z-index: 100;
+    }
+
+    header nav #headerPages.active{
+        left: 0;
+    }
+
+    header nav #headerPages li{
+        margin-bottom: 30px;
+    }
+    
+    #menuIcon{
+        color: var(--white-color);
+        font-size: 25px;
+        display: block;
+    }
+
+    header nav button, header nav ul li a{
+        cursor: default;
+    }
+    
+}

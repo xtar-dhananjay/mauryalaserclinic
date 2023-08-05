@@ -114,9 +114,9 @@
         </div>
 
     </div>
-    <div id="moreBox">
+    <!-- <div id="moreBox">
         <button>Load More</button>
-    </div>
+    </div> -->
 </div>
 
 <?php include 'footer.php'; ?>

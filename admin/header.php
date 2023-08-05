@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
-    <!-- lightBox for gallery carousel -->
-    <link rel="stylesheet" href="css/lightbox.min.css">
-    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
     
@@ -23,21 +20,21 @@
         <nav>
             <a href="home"><img src="img/mainLogo.png" alt="mauryalaserclinic-Logo"></a>
             <ul id="headerPages">
-                <li class="active"><a href="home">Home</a></li>
-                <li><a href="services">Services</a></li>
-                <li><a href="about">About</a></li>
+                <li class="active"><a href="inquiry.php">Inquiry</a></li>
+                <li><a href="services.php">Services</a></li>
                 <li><a href="blogs">Blogs</a></li>
+                <li><a href="seo.php">SEO</a></li>
                 <li id="contactMenu"><a href="contact">Contact</a></li>
             </ul>
-            <ul id="donContact"> 
-                <li id="headerCall"><a href=""><i class="fa-solid fa-phone"></i></a></li>
-                <li><button id="headerContactBtn" onclick="inquiryForm.classList.toggle('active');">Book Appointment</button></li>
+            <ul id="donContact">
+                <a href="inqury.php"><li><button id="headerContactBtn" onclick="inquiryForm.classList.toggle('active');">Book Appointment</button></li></a>
             </ul>
             <i id="menuIcon" class="fa-solid fa-bars"></i>
         </nav>
     </header>
 
     <script src="js/header.js"></script>
+    <?php include 'message.php'; ?>
 
 </body>
 </html>

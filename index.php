@@ -53,7 +53,7 @@
         <h2 id="bestSerHeading">Best <span>Services</span></h2>
          <!-- Swiper -->
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="allServices">
 
                 <div class="swiper-slide blogServices">
                     <div class="imgBox">
@@ -144,11 +144,11 @@
         </div>
          <!-- Swiper -->
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="allReviewBox">
 
                 <div class="swiper-slide Reviews">
                     <div class="customerProfile">
-                        <img src="img/reviews/1.png" alt="customer-Photo | Maurya laser clinic customer in delhi">
+                        <img src="img/reviews/1.png" alt="customer-Photo | Maurya laser clinic customer in delhi, Pitampura">
                         <div class="personDetails">
                             <h3>Sanjeev Sharma</h3>
                             <p>25, Apr 2023</p>
@@ -262,7 +262,6 @@
         <div id="addReviews">
             <a target="_blank" href="https://g.page/r/Cd2IaC-b3YSoEB0/review"><button>Add Reviews</button></a>
         </div>
-        <iframe src='https://cdn.trustindex.io/amp-widget.html#04bc49e17a1c80814096a328d91' sandbox='allow-scripts allow-same-origin' layout='fixed-height' height='1301' resizable='resizable'><span overflow></span></iframe>
     </div>
 
     <?php include 'bookAppointment.php'; ?>

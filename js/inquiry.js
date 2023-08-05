@@ -36,15 +36,19 @@ inquiryBtn.onclick = (e) => {
         inquiryBtn.innerText = "Submitting";
         inquiryBtn.style.background = "lightgray";
         let mainForm = document.querySelector('#inquiryForm form');
-        var formData = new FormData(mainForm);
-        var jsonObject = {};
+        let inquiryName = document.getElementById('inquiryName').value;
+        let inquiryPhone = document.getElementById('inquiryPhone').value;
 
-        for (var pair of formData.entries()) {
-        jsonObject[pair[0]] = pair[1];
-        }
+        // Create an object with the data
+        let jsonObject = {
+            name: inquiryName,
+            phoneNumber: inquiryPhone
+        };
 
-        var jsonData = JSON.stringify(jsonObject);
-        fetch('php/inquiry/inquiryInsert.php', {
+        // Convert the object to JSON string
+        let jsonData = JSON.stringify(jsonObject);
+        
+        fetch('php/bookApointment/insert.php', {
             method: "POST",
             body: jsonData,
             headers: {
@@ -56,9 +60,9 @@ inquiryBtn.onclick = (e) => {
             if (data.status == "success") {
                 inquiryForm.classList.toggle('active');
                 mainForm.reset();
-                sucMsg('Form Submitted Successfully');
+                sucMsg('Wait Maurya Team Call you after view minuts');
             }else{
-                errMsg('Server issue');
+                errMsg(status.message);
             }
             inquiryBtn.style.pointerEvents = "auto";
             inquiryBtn.innerText = "Submit";    

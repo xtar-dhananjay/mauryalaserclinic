@@ -1,20 +1,20 @@
 <?php include 'header.php'; ?>
 <link rel="stylesheet" href="css/singleService.css">
 
-
+<input type="text" hidden id="permalink" value="<?php echo $_GET['permalink']; ?>">
 <div id="singleService">
 
     <div id="leftSide">
         <div class="imgBox">
-            <img src="img/servicesImg/1.png" alt="maurya laser clinic Delhi services images">
-            <span class="serPrice"><span class="newPrice">₹2999</span><strike>₹<span>4999</span></strike></span>
+            <img id="sreviceImg" src="img/servicesImg/1.png" alt="maurya laser clinic Delhi services images">
+            <span class="serPrice"><span class="newPrice" id="serviceNewPrice">₹2999</span><strike>₹<span id="servicesOldPrice">4999</span></strike></span>
         </div>
         <div id="singleServiceDetails">
-            <h1>Maurya Laser clinic Services In Delhi</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia tempora, autem consectetur nesciunt iusto in possimus veritatis, quod ducimus nisi, voluptate deleniti? Aliquam debitis qui iure obcaecati earum velit, saepe deleniti esse temporibus atque repellat sequi. Ab tempora nisi provident!</p>
+            <h1 id="serviceTitle">Maurya Laser clinic Services In Delhi</h1>
+            <p id="serviceDesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia tempora, autem consectetur nesciunt iusto in possimus veritatis, quod ducimus nisi, voluptate deleniti? Aliquam debitis qui iure obcaecati earum velit, saepe deleniti esse temporibus atque repellat sequi. Ab tempora nisi provident!</p>
     
             <h2>Benefits of this service</h2>
-            <ul>
+            <ul id="listOfBenefits">
                 <li>Beneifts</li>
                 <li>Beneifts</li>
                 <li>Beneifts</li>

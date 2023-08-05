@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#for home page
+RewriteRule ^home$ index.php [NC,L]
+
+#for home page
+RewriteRule ^services$ services.php [NC,L]
+
+#for home page
+RewriteRule ^blogs$ blogs.php [NC,L]
+
+#for home page
+RewriteRule ^gallery$ gallery.php [NC,L]
+
+#for home page
+RewriteRule ^contact$ contact.php [NC,L]
+
+#for home page
+RewriteRule ^about$ about.php [NC,L]
+
+
+#-------------------------------------------------------------------
+#make services page seo friendly urls
+RewriteRule ^services/([0-9a-zA-Z]+) singleService.php?permalink=$1 [NC,L]
